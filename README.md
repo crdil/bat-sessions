@@ -1,3 +1,6 @@
+# Information
+I did create a pull request with sessions support on bat-cli repo, but didn't get any answer from the maintainer so created a new repo here instead which is a fork with added support for sessions.
+
 # bat
 Go implemented CLI cURL-like tool for humans. Bat can be used for testing, debugging, and generally interacting with HTTP servers.
 
