@@ -94,7 +94,11 @@ Download a file wget style:
 
 Set a custom Host header to work around missing DNS records:
 
-	$ bat localhost:8000 Host:example.com
+	$ bat localhost:8000 Host:example.com  
+
+Use persistent session with request, sessions will be stored in ~/.bat-cli  
+  
+	$ bat -s="mysession.json" example.com/login  
 	
 Following is the detailed documentation. It covers the command syntax, advanced usage, and also features additional examples.
 	
